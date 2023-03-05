@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family: font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#ffffff, #A5C9CA);
+    color: black;
+}
+.nav{
+    background-color: black;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    background-color: #B9F3FC;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 15px;
+    box-shadow: 0px 20px 30px ;
+}
+.header:hover{
+    background-color: #C0EEF2;
+    transition: ease-in-out 0.5s ;
+    margin-right: 24.5%;
+    margin-left: 24.5%;
+    padding-top: 3px;
+    padding-bottom:3px;
+    opacity: 0.9;
+
+}
+
+.bpic {
+    width: 180px;
+    border-radius: 50%;
+    border: 6px solid gray;
+    background-color: transparent;
+}
+
+#head{
+    text-shadow: 0px 0px 1px black; 
+
+}
+
+#wish{
+    text-shadow: 0px 0px 1px black; 
+    padding: 8px 4px 8px;
+    background-color:#F7C8E0 ;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;  
+}
+
+#date{
+     text-shadow: 0px 0px 1px black; 
+     padding: 8px 4px 8px;
+     border-radius: 5px;
+}
+
+.gifts-image {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("photos/gifts.jpg");
+    background-size: cover;
+}
+#gif1:hover{
+    background-image: url("photos/1W9X.gif");
+}
+.gifts-part{
+    padding-top: 40px;
+}
+#gif2:hover{
+    background-image: url("photos/display.gif");
+}
+#gif3:hover{
+    background-image: url("photos/show.gif");
+}
+.gifts-differ {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("photos/gifts.jpg");
+    background-size: cover;
+}
+#gif4:hover{
+    background-image: url("photos/8qQu.gif");
+}
+.footer{
+    text-align: center;
+    padding-top: 40px;
+    color: #00337C;
+    background-color: #ECF2FF;
+    margin-top: 60px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    opacity: ;
+    font-size: 10px;
+
+}
